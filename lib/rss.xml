@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Archmage]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Archmage</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 03 Mar 2024 16:01:11 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 03 Mar 2024 16:01:09 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Ability Scores]]></title><description><![CDATA[ 
+ <br>Instead of the six D&amp;D ability scores, the Archmage system uses four primary abilities:<br>Strength (STR)<br>
+Measures your physical strength; both your ability to take a punch and deliver one.<br>
+Dexterity (DEX)<br>
+Measures your control over your body, your ability to jump, run, hide, and dodge<br>
+Intellegence (INT)<br>
+Measures your cognitive abilities, understanding of the world, and application of that understanding.<br>
+Presence (PRS)<br>
+Measures your mental strength, willpower, and your ability to influence and command others.<br>Every player and non-player character has a number for each of these ability scores, the minimum for each ability score is -3 and the maximum is 5, but player characters start with between 0 and 2 for each of these ability scores. Starting level characters have 4 points, divided as chosen. Below are real-life examples for each level of each ability score.]]></description><link>Ability Scores.html</link><guid isPermaLink="false">Ability Scores.md</guid><pubDate>Tue, 20 Feb 2024 11:37:38 GMT</pubDate></item><item><title><![CDATA[Actions in Combat]]></title><description><![CDATA[ 
+ <br>Each turn in combat you gain: movement equal to your movement speed, one reaction, two actions.<br>Actions:<br>
+<br>Attack
+<br>Dash
+<br>Cast a spell
+<br>Reload
+<br>Dash
+<br>Help
+<br>Stabilize or heal an ally
+<br>Anything else that takes 2-3 seconds
+<br>Movement:<br>
+By default, each character has 10m of movement per turn, and can spend it divided up between actions as they choose. For each time they dash they gain additional movement equal to their standard movement speed. Most maps are built out of either grids or hexes, where each square or hex represents 2m of distance. So to move to an adjacent tile you must spend 2m of movement, or you can spend 3m to move to a tile diagonal from you.<br>You can take any number of free actions at any point, but can't take the same one more than once.<br>
+Free actions:<br>
+<br>Drop concentration
+<br>Drop an object you are holding
+<br>Speak a short phrase
+<br>Interact with an object
+<br>Drop prone
+<br>Make a social check to influence an npc
+<br>Change weapons
+<br>Cast a reactive spell  (if known)
+<br>Take a free attack (if granted by an ability)
+<br>Make a knowledge check
+]]></description><link>Actions in Combat.html</link><guid isPermaLink="false">Actions in Combat.md</guid><pubDate>Tue, 20 Feb 2024 12:52:23 GMT</pubDate></item><item><title><![CDATA[Alignment]]></title><description><![CDATA[ 
+ <br>What are a creatures main motiviations?<br>White: Community, Friendship, Justice, Order<br>
+Blue: Knowledge, Creativity, Resources<br>
+Black: Power<br>
+Green: Base Carnal Desires<br>
+Red: Violence, Freedom<br>Purple: Alien motiviations]]></description><link>Alignment.html</link><guid isPermaLink="false">Alignment.md</guid><pubDate>Thu, 22 Feb 2024 19:06:52 GMT</pubDate></item><item><title><![CDATA[Attacking]]></title><description><![CDATA[ 
+ <br>Attack rolls are made by rolling and adding up , adding your Strength or Dexterity modifier depending on the weapon, and adding any additional bonuses such as skill. Then compare this to your target's armor class. If they are equal, the attack is a partial success and you deal partial damage. If your attack is greater than their armor class, the attack is a full success, and you can choose to either deal full damage, or still deal partial damage and make a special attack you have access too.<br>All attacks deal 1d6 damage, limited by the maximum damage specified by the weapon.]]></description><link>Attacking.html</link><guid isPermaLink="false">Attacking.md</guid><pubDate>Mon, 26 Feb 2024 17:15:51 GMT</pubDate></item><item><title><![CDATA[Character Sheet Notes]]></title><description><![CDATA[ 
+ <br>Player Name<br>
+Pronouns<br>
+Damage Die<br>
+Max HP<br>
+Current HP<br>
+AC<br>
+Current XP<br>
+Level<br>Stats<br>
+Skills<br>
+Saves]]></description><link>Character Sheet Notes.html</link><guid isPermaLink="false">Character Sheet Notes.md</guid><pubDate>Mon, 26 Feb 2024 16:36:07 GMT</pubDate></item><item><title><![CDATA[Character weakness]]></title><description><![CDATA[ 
+ ]]></description><link>Character weakness.html</link><guid isPermaLink="false">Character weakness.md</guid><pubDate>Sun, 18 Feb 2024 15:58:45 GMT</pubDate></item><item><title><![CDATA[Damage & Healing]]></title><description><![CDATA[ 
+ <br>Each player has a number of base hp equal to their level plus their brawn ability score<br>floor((LVL + 1)  (BRN + 3)   0.25 + BRN) <br>When you have 0 or fewer hp, you are seriously injured and must make an injury save at the start of each of your turns round. To do so, make a strength saving throw against 7 plus the number of negative hp you have. If you fail, you lose one hp, if you fully succeed, you regain one hp, if you partially succeed, nothing changes. If you critically succeed or fail, you lose or gain two hp. While you have 0 or fewer hp you can still act as normal, but you get a penalty on all rolls equal to your amount of negative hp, and the same penalty on your movement speed in meters.<br>To stabilize you, an ally needs to make a medicine check or healing magic check against the same dc, 7 plus your amount of negative hp. If they roll a partial success, you become stable. As long as you are stable, the injury penalty to rolls is halved, and you only need to make an injury save every eight hours, and you get +1 on that save.]]></description><link>Damage &amp; Healing.html</link><guid isPermaLink="false">Damage &amp; Healing.md</guid><pubDate>Tue, 20 Feb 2024 15:44:27 GMT</pubDate></item><item><title><![CDATA[Defense and Armor]]></title><description><![CDATA[ 
+ <br>In Archmage, each character has an armor class, the same as DND. Any attack must be compared to the armor class, and must at least meet it to do damage. ]]></description><link>Defense and Armor.html</link><guid isPermaLink="false">Defense and Armor.md</guid><pubDate>Tue, 13 Feb 2024 22:34:15 GMT</pubDate></item><item><title><![CDATA[Experience and Leveling Up]]></title><description><![CDATA[ 
+ <br>Unlike in other games, players don't follow fixed classes for leveling up, and instead can choose features from a tree-like progression chart. Players will be rewarded with experience points after completing adventures (on average one point per 2-3 hours of adventure). Players in a party usually gain xp points together, at the same rate. The next time your character has an opportunity to spend time training or learning, you can spend these experience points, to unlock new abilities. These xp points are also consumed by some abilities, such as spells to revive the dead or travel between planes, and the creation of very powerful magic items. <br>Sometimes you will also have special opportunities to spend xp, for instance you might encounter a scroll explaining a spell or ability, or an npc willing to teach you a special technique. If you don't have xp available at the time you can un-learn an ability to regain the xp points spent on it, but once you do so you can never re-learn it.<br>The feature tree is also divided into levels, these simply limit you from heading too far down any particular skill tree early on, and force you to diversify your abilities. Each level is unlocked after you get a number of experience points equal to that level, not including ones gained for previous levels. Reaching a new level doesn't automatically unlock any new abilities, but it does grant you access to new features which you can unlock using experience points.]]></description><link>Experience and Leveling Up.html</link><guid isPermaLink="false">Experience and Leveling Up.md</guid><pubDate>Tue, 20 Feb 2024 11:31:57 GMT</pubDate></item><item><title><![CDATA[Ideas]]></title><description><![CDATA[ 
+ <br>Low level and half-caster type classes should make use of psudo-vancian magic with consumable mana points.<br>
+Low level magic and magic for half-casters is simple, full-caster magic offers flexibility and freeform magic.<br>
+High level magic users gain acess to power words<br>
+Mana is determined by int + prs<br>
+Different levels grant different ASI's (2-&gt;3, 1-&gt;2, 3-&gt;4) or increases in damage dice<br>
+Every in game hour, everyone regains one hit point and one mana point, provided both values are above zero<br>
+If you are out of mana points, you can spend hit points instead of mana points<br>
+If your level is twice the level of a spell, you can cast it without spending any mana points, with no chance of failure (even if you have to make a roll, rolling below the dc has no effect) and you can scale the spell down as much as you want<br>
+Persuasion split into two skills<br>
+Non lethal always assumed<br>To make an attack, roll your damage die, and add your damage modifier<br>
+When your are attacked, roll your dodge die, and add your armor modifier<br>Safe landing reaction<br>
+Move through enemies<br>What happens on contest ties.<br>
+<br>Whoever initiated the contest wins.
+<br>The situation remains the same.
+<br>The player wins.
+<br>To make an attack roll, roll a d12 and add youzs r ability and skill modifier<br>Def = 6 + prof + ceil((str + dex)/2)<br>
+HP = 4 + level + str<br>
+Mana = lvl + int + prs<br>Paths:<br>
+Divination / Hunters mark<br>
+Curses + Hag magic / Hex<br>
+Magical Ventriliquism<br>BRN  2 + LVL  1.5 + 2 + FXP/2 = 0<br>Replace spendable xp but limited charges<br>
+will-o-the-wisps]]></description><link>Ideas.html</link><guid isPermaLink="false">Ideas.md</guid><pubDate>Fri, 01 Mar 2024 23:36:25 GMT</pubDate></item><item><title><![CDATA[Introduction]]></title><description><![CDATA[ 
+ <br>Archmage is designed to allow for a more intuitive RPG system that is less restrained by rules and more free for storytelling by the DM and players. This more light-weight approach to rules relies on the expectation that the DM will set fair DCs and give fair modifiers, and that the players will not try to exploit cracks in the rules.<br>Despite it's name, the Archmage system is quite customizable, and can be made to fit any setting. The easiest way to modify it, is by choosing to make some paths unavailable to players. You could, for instance, make all magical paths unavailable in a setting without magic, or make the path of the gunslinger unavailable in medival settings. Alternatively, you could start with some certain paths being unavailable to players, but grant them access to all or part of it as a rewards, when they gain access to rare technology or arcana in the game.<br>While it still has traditional combat, it is intended to host stories with more focus on roleplay and exploration, and it's rules are built accordingly. <br>-- add note about the fashion of discreetness<br>Problems in d&amp;d solved by this game:<br>
+<br>Much less math related to attacks, damage, and hp
+<br>Smooth progression, without power level jumps or long stretches of no new abilities
+<br>More freedom in character creation than with fixed classes
+<br>More freedom with storytelling, without sacrificing combat ability, including balanced weapons and spells
+<br>Balance of situational and general features
+<br>More freedom in spellcasting
+<br>More intuitive hp and damage system
+]]></description><link>Introduction.html</link><guid isPermaLink="false">Introduction.md</guid><pubDate>Mon, 26 Feb 2024 17:43:54 GMT</pubDate></item><item><title><![CDATA[Modifiers]]></title><description><![CDATA[ 
+ <br>These modifiers can stack to a maximum of +3 or -3. <br><br>Target is unconscious<br>
+Target is paralyzed<br><br>Target is restrained<br>
+Target is entirely distracted<br>
+Target is directly below you<br><br>Target is somewhat distracted<br>
+Target is facing away from you / cannot see you<br>
+Target is more than 45° below you (ranged weapons only)<br>
+The target is prone (melee only)<br><br>Target is more than 45° above you (ranged weapons only)<br>
+You already attacked the target this turn<br>
+Target is prepared for the attack<br>
+Target is behind partial cover<br>
+Someone else spent their turn protecting the target<br>
+Farther than your weapons max range (ranged weapons only)<br>
+You are prone<br>
+Attack was made using a medium weapon using your offhand<br>
+Target is within 2m (ranged weapons only)<br>
+You already made an attack this turn against another target<br>
+You are wielding a heavy weapon with only one hand<br><br>Target is directly above you<br>
+Target is behind significant cover<br>
+Between two and three times your weapon's maximum range. (ranged weapons only)<br>
+You already made an attack against this target this turn<br><br>Between three and five times your weapon's maximum range. (ranged weapons only)]]></description><link>Modifiers.html</link><guid isPermaLink="false">Modifiers.md</guid><pubDate>Mon, 19 Feb 2024 13:41:17 GMT</pubDate></item><item><title><![CDATA[Philosiphy]]></title><description><![CDATA[ 
+ <br>
+<br>D4s are shit and should never be used
+<br>Never give advantage or disadvantage on ability checks
+<br>
+]]></description><link>Philosiphy.html</link><guid isPermaLink="false">Philosiphy.md</guid><pubDate>Mon, 26 Feb 2024 19:29:26 GMT</pubDate></item><item><title><![CDATA[Schools of Magic]]></title><description><![CDATA[ 
+ <br>
+<br>Sanctifism (Presence Only)
+
+<br>Sanctifism practitioners draw upon their inner strength and connection to divine energies to heal wounds, cure ailments, and restore vitality to themselves and others. Their magic radiates with a holy light, capable of purifying darkness and bringing hope to those in need.
+
+
+<br>Artifice (Intellegence Only)
+
+<br>Artificers are masters of craftsmanship and invention, utilizing their keen Intellegence to repair broken objects, create intricate constructs, and imbue mundane items with magical properties. Their magic is rooted in the principles of engineering and arcane knowledge, allowing them to shape raw materials into wondrous creations.
+
+
+<br>Necromancy
+
+<br>Practitioners of necromancy wield the dark powers of death and decay, commanding the forces of the undead and draining the life force of their enemies. With mastery over both physical and mental energies, necromancers can raise armies of the dead and harness forbidden knowledge from beyond the grave.
+
+
+<br>Divination
+
+<br>Diviners possess the gift of foresight and insight, using their powers to peer into the past, present, and future. Through the manipulation of time and space, diviners can unravel mysteries, uncover hidden truths, and peer into the depths of the unknown with unparalleled clarity.
+
+
+<br>Floramancy
+
+<br>Floramancers commune with the natural world, channeling the primal energies of plants and flora to manipulate their growth, heal wounds, and harness the power of nature itself. Their magic is intertwined with the cycle of life and death, allowing them to shape the environment to their will and nurture life wherever they go.
+
+
+<br>Psionics
+
+<br>Psions are wielders of the mind, capable of bending reality to their will through sheer mental prowess. With telekinetic abilities, mind control, and telepathy at their disposal, psions can influence the thoughts and actions of others, reshape the environment, and transcend the limitations of the physical world.
+
+
+<br>Evocation
+<br>Illusion
+
+<br>Illusionists are masters of deception and trickery, capable of creating lifelike illusions and manipulating the perceptions of others. Their magic can cloak their allies in shadows, conjure phantom images, and sow confusion among their enemies, making them formidable foes on the battlefield and adept infiltrators in the world of espionage.
+
+
+<br>Enchantment
+]]></description><link>Schools of Magic.html</link><guid isPermaLink="false">Schools of Magic.md</guid><pubDate>Thu, 15 Feb 2024 21:35:44 GMT</pubDate></item><item><title><![CDATA[Skills & Checks]]></title><description><![CDATA[ 
+ <br>Skills<br>
+All your skills are stored in lists, each one under the associated ability score. You will choose skills as you creature your character, and might gain more as your character gains experience. Each skill is associated with a ability score, this is the ability score it is usually used with, but not always.<br>The DM might also impose an extra modifier for situational reasons, making something easier with a positive modifier or harder with a negative modifier. <br>Each check has a difficulty class (DC) needed for success. Higher DCs indicate more challenging tasks. Failure occurs if your roll is less than the DC, with the severity of failure determined by the difference between your roll and the DC. Rolling equal to the DC results in a partial success, while exceeding the DC grants a full success.<br>Here is a guide for determining task DCs, with corresponding D&amp;D DCs for comparison:<br>
+<br>DC 5 - Very Easy (D&amp;D 5)
+<br>DC 7 - Easy (D&amp;D 10)
+<br>DC 9 - Simple (D&amp;D 12)
+<br>DC 11 - Moderate (D&amp;D 15)
+<br>DC 13 - Challenging (D&amp;D 18)
+<br>DC 14 - Difficult (D&amp;D 20)
+<br>DC 15 - Very Difficult (D&amp;D 22)
+<br>DC 17 - Extremely Difficult (D&amp;D 25)
+<br>DC 18 - Near Impossible (D&amp;D 28)
+<br>DC 19 - Godlike (D&amp;D 30)
+<br>Additionally, if you roll a Natural 12, you automatically fully succeed regardless of the task's difficulty. Conversely, rolling a Natural 1 results in automatic failure. If you roll a natural 12 on a check that would require someone else to make a save, instead they fail automatically.<br>Once a check has been failed, it cannot be re-attempted until the players have found a way to make it easier, by removing a negative modifier or gaining a positive modifier. If a player intentionaly takes <br>]]></description><link>Skills &amp; Checks.html</link><guid isPermaLink="false">Skills &amp; Checks.md</guid><pubDate>Wed, 28 Feb 2024 23:08:24 GMT</pubDate></item><item><title><![CDATA[Sources]]></title><description><![CDATA[ 
+ <br>Disco Elysium and the METRIC System<br>
+Dungeons &amp; Dragons<br>
+Magic the Gathering<br>
+Pathfinder<br>
+World of Aetaltis]]></description><link>Sources.html</link><guid isPermaLink="false">Sources.md</guid><pubDate>Sat, 24 Feb 2024 22:04:45 GMT</pubDate></item><item><title><![CDATA[Spellcasting]]></title><description><![CDATA[ 
+ <br>In order to cast a spell, you will need:<br>
+<br>Spellcasting unlocked
+
+<br>You must have the first level of magical path
+
+
+<br>A source of magical knowledge
+
+<br>This can be a library of the arcane, a teacher with arcane experience, a beginners magic book, ancient text, your own studies, or anything else.
+
+
+<br>A magical focus.
+
+<br>This can be a wand, a staff, a magic hat, an amulet, a magical weapon, or anything else that has been attuned to resonate magic.
+<br>Most magical foci grant a bonus to a certain school of magic.
+<br>You can cast spells without a focus, but you get -1 on your rolls.
+
+
+<br>As long as you do not have a negative penalty, you automatically succeed at casting spells that are at most half of the maximum level you have unlocked in any path.<br>In any contest, whoever rolled last wins ties, unless a partial success result is specified<br>Spells and melee attacks deal base damage equal to your ]]></description><link>Spellcasting.html</link><guid isPermaLink="false">Spellcasting.md</guid><pubDate>Mon, 19 Feb 2024 23:36:42 GMT</pubDate></item><item><title><![CDATA[Story]]></title><description><![CDATA[ 
+ <br>The world was created by a single god, who was killed in a great war, shattered into a million pieces, and those pieces now wreak havoc across the world and create all magical entities.<br>Will o' the wisps and magical swamp]]></description><link>Story.html</link><guid isPermaLink="false">Story.md</guid><pubDate>Sat, 02 Mar 2024 20:03:15 GMT</pubDate></item><item><title><![CDATA[Testing]]></title><description><![CDATA[ 
+ <br>function dice(){
+	return Math.ceil(Math.random()*6) + Math.ceil(Math.random()*6);
+}
+let brn = 2;
+function it(val){
+	let roll = dice()+brn;
+	if(roll&gt;val+7) return val-1;
+	if(roll&lt;val+7) return val+1;
+	return val;
+}
+function test(val){
+	while(val&gt;0&amp;&amp;val&lt;10){
+		val = it(val)
+	}
+	if (val&lt;=0) return true
+	if (val&gt;=10) return false
+	console.log("err")
+}
+function bulkTest(v){
+	let x = 100000
+	let suc = 0
+	for(let i = 0; i&lt;x; i++){
+		suc += test(v)?1:0
+	}
+	return suc/x
+}
+console.log(bulkTest(10000,2))
+ Copy]]></description><link>Testing.html</link><guid isPermaLink="false">Testing.md</guid><pubDate>Tue, 20 Feb 2024 12:34:06 GMT</pubDate></item><item><title><![CDATA[Weapons]]></title><description><![CDATA[ 
+ <br>In Archmage, all melee weapons are divided into three categories:<br>Light<br>
+Light weapons always use your Dexterity score, you can fight with a light weapon in either hand. Examples include daggers, shortswords, and light hammers.<br>
+Medium<br>
+Medium weapons can use your Dexterity score or Strength score, you can hold one medium and one small weapon but not two medium weapons. Examples include longswords, spears, light clubs, staffs<br>
+Heavy<br>
+Heavy weapons use only your Strength score and <br>Light weapons are considered tiny, medium and heavy weapons are considered small.]]></description><link>Weapons.html</link><guid isPermaLink="false">Weapons.md</guid><pubDate>Tue, 20 Feb 2024 11:52:23 GMT</pubDate></item></channel></rss>
